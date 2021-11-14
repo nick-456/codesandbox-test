@@ -52,4 +52,21 @@
 // const message2 = `私の名前は${name}です。年齢は${age}歳です。`;
 // console.log(message2);
 
-const myProfile = [];
+// const myProfile = ["ジャケえ", 28];
+// const message3 = `私の名前は${myProfile[0]}です。年齢は${myProfile[1]}歳です。`;
+// console.log(message3);
+
+// const [name, age] = myProfile;
+// const message4 = `私の名前は${name}です。年齢は${age}歳です。`;
+// console.log(message4);
+
+/**
+ * デフォルト引数
+ */
+// const sayHello = (name = "ゲスト") => console.log(`こんにちは${name}さん`);
+
+// sayHello();
+
+/**
+ * スプレッド構文
+ */
